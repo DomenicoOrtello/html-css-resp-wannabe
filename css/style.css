@@ -127,19 +127,24 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
-/* @media screen and (max-width: 768px) {
+ @media screen and (max-width: 768px) {
+        .container {
         width: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
         text-align: center;
-    } */
+        }
+    }
     
  @media screen and (max-width: 480px) {
     .container {
+      width: 100%;
       display: flex;
       flex-direction: column;
       align-items: center;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .why-us {
         background-color: black;

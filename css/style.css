@@ -135,4 +135,13 @@ img {
         text-align: center;
     }
     
- @media screen and (max-width: 480px)
+ @media screen and (max-width: 480px) {
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .why-us {
+        background-color: black;
+    }
+ }
